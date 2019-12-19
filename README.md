@@ -6,11 +6,14 @@ If you need any help publishing docker images to the GitHub Package Registry rea
 
 `sudo docker login docker.pkg.github.com --username <USERNAME> -p <GITHUB_TOKEN>`
 
+### Step 2 - Build Image
 
-### Step 2 - Tag Image
+`sudo docker build . -t <IMAGE_NAME>`
+
+### Step 3 - Tag Image
 
 `sudo docker tag <IMAGE_ID> docker.pkg.github.com/<USERNAME>/<REPOSITORY>/<IMAGE_NAME>:<VERSION>`
 
-### Step 3 - Push Image
+### Step 4 - Push Image
 
 `sudo docker push docker.pkg.github.com/<USERNAME>/<REPOSITORY>/<IMAGE_NAME>:<VERSION>`
