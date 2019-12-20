@@ -5,4 +5,3 @@ This image is a lightweight version of the '[Flask Pack](https://github.com/jgph
 ## Contents:
  - [Flask](https://github.com/pallets/flask) - A Python micro framework for building web applications.
  - [Requests](https://github.com/psf/requests) - A simple HTTP library.
- - [LibSass](https://github.com/sass/libsass) - A Sass compiler.
