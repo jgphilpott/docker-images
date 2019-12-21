@@ -1,6 +1,6 @@
 # Docker Images
 
-If you need any help publishing docker images to the GitHub Package Registry read [this](https://towardsdatascience.com/setting-up-github-package-registry-with-docker-and-golang-7a75a2533139) or see the steps below.
+If you need any help publishing your docker images to the GitHub Package Registry read [this](https://towardsdatascience.com/setting-up-github-package-registry-with-docker-and-golang-7a75a2533139) or see the steps below.
 
 ### Step 1 - Login
 
