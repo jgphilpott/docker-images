@@ -20,7 +20,7 @@ The 'Flask Pack' is a collection of software packages commonly used in Flask app
 
 ### User Management
 
- - [Flask-Login](https://github.com/maxcountryman/flask-login) - User session management for Flask.
+ - [Flask-Login](https://github.com/maxcountryman/flask-login) - User session management for Flask applications.
 
 ### Styling
 
