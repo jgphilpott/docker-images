@@ -7,7 +7,7 @@ This image is a lightweight version of the '[Flask Pack](https://github.com/jgph
 ### Core
 
  - [Flask](https://github.com/pallets/flask) - A Python micro framework for building web applications.
- - [Fire](https://github.com/google/python-fire) - A Python command line tool. 
+ - [Fire](https://github.com/google/python-fire) - A Python command line tool.
 
 ### Database
 
