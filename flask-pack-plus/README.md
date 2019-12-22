@@ -43,6 +43,11 @@ This image is a heavy duty version of the '[Flask Pack](https://github.com/jgphi
  - [Matplotlib](https://github.com/matplotlib/matplotlib) - A 2D plotting library for Python.
  - [Altair](https://github.com/altair-viz/altair) - A statistical visualization library for Python.
 
+### Data Science Toolkit
+
+ - [pandas](https://github.com/pandas-dev/pandas) - A flexible and powerful data analysis library.
+ - [scikit-learn](https://github.com/scikit-learn/scikit-learn) - A machine learning for Python.
+
 ### Cryptography
 
  - [SHA-256](https://pypi.org/project/sha256/) - A one-way hash algorithm.

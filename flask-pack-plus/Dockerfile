@@ -25,6 +25,9 @@ RUN pip install beautifulsoup4
 RUN pip install matplotlib
 RUN pip install altair
 
+RUN pip install pandas
+RUN pip install scikit-learn
+
 RUN pip install sha256
 RUN pip install ecdsa
 RUN pip install rsa
