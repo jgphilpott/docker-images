@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="320" height="320" src="https://github.com/jgphilpott/docker-images/blob/master/img/icon.jpeg">
+  <img width="300" height="300" src="https://github.com/jgphilpott/docker-images/blob/master/img/icon.jpeg">
 </p>
 
 # Intro

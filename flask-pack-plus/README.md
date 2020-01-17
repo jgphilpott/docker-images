@@ -2,6 +2,16 @@
 
 This image is a heavy duty version of the 'Flask Pack', a collection of software packages commonly used in Flask applications.
 
+## Useage
+
+To pull this image via the command line:
+
+`docker pull docker.pkg.github.com/jgphilpott/docker-images/flask-pack-plus:v4`
+
+To use this image as the base in a Dockerfile:
+
+`FROM docker.pkg.github.com/jgphilpott/docker-images/flask-pack-plus:v4`
+
 ## Contents
 
 ### Core
