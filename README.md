@@ -4,7 +4,7 @@
 
 # Intro
 
-A Docker Image is a layered collection of software packages used to create a Docker Container. Only software packages installed on an image will be available for use inside the corresponding container.
+A [Docker Image](https://docs.docker.com/glossary/#image) is a layered collection of software packages used to create a [Docker Container](https://docs.docker.com/glossary/#container). Only software packages installed on an image will be available for use inside the corresponding container.
 
 # Contents
 
