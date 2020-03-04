@@ -2,7 +2,7 @@
 
 The 'Flask Pack' is a collection of software packages commonly used in Flask applications.
 
-## Useage
+## Usage
 
 To pull this image via the command line:
 

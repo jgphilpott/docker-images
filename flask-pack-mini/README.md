@@ -2,7 +2,7 @@
 
 This image is a lightweight version of the 'Flask Pack', a collection of software packages commonly used in Flask applications.
 
-## Useage
+## Usage
 
 To pull this image via the command line:
 
