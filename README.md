@@ -1,10 +1,10 @@
 <p align="center">
-  <img width="300" height="300" src="https://github.com/jgphilpott/docker-images/blob/master/icon.jpeg">
+  <img width="200" height="200" src="https://github.com/jgphilpott/docker-images/blob/master/icon.jpeg">
 </p>
 
 # Intro
 
-A Docker Image is a layered collection of software packages used to create a Docker Container. Only software packages installed on an image will be available for use inside the corresponding container.
+A [Docker Image](https://docs.docker.com/glossary/#image) is a layered collection of software packages used to create a [Docker Container](https://docs.docker.com/glossary/#container). Only software packages installed on an image will be available for use inside the corresponding container.
 
 # Contents
 
@@ -26,7 +26,7 @@ A collection of software packages commonly used in Raspberry Pi projects.
 
 # Publishing
 
-If you need any help publishing your docker images to the GitHub Package Registry read [this](https://towardsdatascience.com/setting-up-github-package-registry-with-docker-and-golang-7a75a2533139) or see the steps below.
+If you need any help publishing your docker images to the [GitHub Package Registry](https://github.com/features/packages) read [this](https://towardsdatascience.com/setting-up-github-package-registry-with-docker-and-golang-7a75a2533139) or see the steps below.
 
 ### Step 1 - Login
 
