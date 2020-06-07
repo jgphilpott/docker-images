@@ -6,18 +6,23 @@ This image is a lightweight version of the 'Flask Pack', a collection of softwar
 
 To pull this image via the command line:
 
-`docker pull docker.pkg.github.com/jgphilpott/docker-images/flask-pack-mini:v4`
+`docker pull docker.pkg.github.com/jgphilpott/docker-images/flask-pack-mini:v5`
 
 To use this image as the base in a Dockerfile:
 
-`FROM docker.pkg.github.com/jgphilpott/docker-images/flask-pack-mini:v4`
+`FROM docker.pkg.github.com/jgphilpott/docker-images/flask-pack-mini:v5`
 
 ## Contents
 
 ### Core
 
  - [Flask](https://github.com/pallets/flask) - A Python micro framework for building web applications.
- - [Fire](https://github.com/google/python-fire) - A Python command line tool.
+ - [Fire](https://github.com/google/python-fire) - A Python tool for generating command line interfaces.
+ - [tqdm](https://github.com/tqdm/tqdm) - A Python tool for generating progress bars in the command line.
+
+### Testing
+
+ - [pytest](https://github.com/pytest-dev/pytest) - A simple and flexible framework for testing in Python.
 
 ### Database
 
@@ -25,5 +30,10 @@ To use this image as the base in a Dockerfile:
 
 ### Scraping
 
- - [Requests](https://github.com/psf/requests) - A simple HTTP library.
+ - [HTTPie](https://github.com/jakubroztocil/httpie) - A simple command line tool for making HTTP requests.
+ - [Requests](https://github.com/psf/requests) - A Python library for making HTTP requests.
  - [BeautifulSoup4](https://code.launchpad.net/beautifulsoup) - A Python library for pulling data out of HTML and XML files.
+
+### Cryptography
+
+ - [Secure](https://github.com/TypeError/secure.py) - A Python library for securing request headers and cookies.
