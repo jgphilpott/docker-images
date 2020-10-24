@@ -26,11 +26,11 @@ A collection of software packages commonly used in Raspberry Pi projects.
 
 # Publishing
 
-If you need any help publishing your docker images to [Docker Hub](https://hub.docker.com/) read [this](https://docs.docker.com/docker-hub/repos) or see the steps below.
+If you need any help publishing your docker images to [Docker Hub](https://hub.docker.com) read [this](https://docs.docker.com/docker-hub/repos) or see the steps below.
 
 ### Step 1 - Login
 
-`sudo docker login docker.pkg.github.com --username <USERNAME> -p <GITHUB_TOKEN>`
+`sudo docker login`
 
 ### Step 2 - Build Image
 
@@ -38,8 +38,8 @@ If you need any help publishing your docker images to [Docker Hub](https://hub.d
 
 ### Step 3 - Tag Image
 
-`sudo docker tag <IMAGE_ID> docker.pkg.github.com/<USERNAME>/<REPOSITORY>/<IMAGE_NAME>:<VERSION>`
+`sudo docker tag <IMAGE_ID> <USERNAME>/<REPOSITORY>:<TAG>`
 
 ### Step 4 - Push Image
 
-`sudo docker push docker.pkg.github.com/<USERNAME>/<REPOSITORY>/<IMAGE_NAME>:<VERSION>`
+`sudo docker push <USERNAME>/<REPOSITORY>:<TAG>`
