@@ -1,25 +1,25 @@
 # Pi Pack Plus
 
-This image is a heavy duty version of the 'Pi Pack', a collection of software packages commonly used in Raspberry Pi projects.
+This image is a heavy duty version of the '[Pi Pack Base](https://github.com/jgphilpott/docker-images/tree/master/pi-pack-base)', a collection of software packages commonly used in Raspberry Pi projects.
 
 ## Usage
 
 To pull this image via the command line:
 
-`docker pull docker.pkg.github.com/jgphilpott/docker-images/pi-pack-plus:v1`
+`docker pull jgphilpott/pi-pack:plus`
 
 To use this image as the base in a Dockerfile:
 
-`FROM docker.pkg.github.com/jgphilpott/docker-images/pi-pack-plus:v1`
+`FROM jgphilpott/pi-pack:plus`
 
 ## Contents
 
 ### Core
 
  - [Flask](https://github.com/pallets/flask) - A Python micro framework for building web applications.
- - [NumPy](https://github.com/numpy/numpy) - A fundamental package for scientific computing in Python.
  - [Fire](https://github.com/google/python-fire) - A Python tool for generating command line interfaces.
  - [tqdm](https://github.com/tqdm/tqdm) - A Python tool for generating progress bars in the command line.
+ - [python-dotenv](https://github.com/theskumar/python-dotenv) - Get and set values in your .env file.
 
 ### Testing
 
@@ -29,29 +29,34 @@ To use this image as the base in a Dockerfile:
 
  - [PyMongo](https://github.com/mongodb/mongo-python-driver) - A Python driver for MongoDB.
 
+### Networking
+
+ - [Flask-SocketIO](https://github.com/miguelgrinberg/Flask-SocketIO) - SocketIO integration for Flask applications.
+ - [Eventlet](https://github.com/eventlet/eventlet) - A concurrent networking library for Python.
+
+### Crawling
+
+ - [Requests](https://github.com/psf/requests) - A Python library for making HTTP requests.
+ - [BeautifulSoup4](https://code.launchpad.net/beautifulsoup) - A Python library for pulling data out of HTML and XML files.
+
 ### GPIO
 
  - [gpiozero](https://github.com/gpiozero/gpiozero) - A simple Python interface for GPIO devices with Raspberry Pi.
- - [pi_analog](https://github.com/simonmonk/pi_analog) - A Python library for using resistive sensors with Raspberry Pi.
-
-### HATs
-
- - [Sense HAT](https://github.com/astro-pi/python-sense-hat) - A Python module to control the Raspberry Pi Sense HAT.
+ - [RPi.GPIO](https://github.com/Tieske/rpi-gpio) - A Python library for controlling a Raspberry Pi's GPIO pins.
 
 ### GUI
 
  - [guizero](https://github.com/lawsie/guizero) - A Python library for quickly and easily creating GUIs.
  - [colorzero](https://github.com/waveform80/colorzero) - A Python library for color manipulation.
 
-### Networking
+### HATs
 
- - [Flask-SocketIO](https://github.com/miguelgrinberg/Flask-SocketIO) - SocketIO integration for Flask applications.
- - [Eventlet](https://github.com/eventlet/eventlet) - A concurrent networking library for Python.
+ - [Sense HAT](https://github.com/astro-pi/python-sense-hat) - A Python module to control the Raspberry Pi Sense HAT.
 
-### Scraping
+### Sensory
 
- - [Requests](https://github.com/psf/requests) - A Python library for making HTTP requests.
- - [BeautifulSoup4](https://code.launchpad.net/beautifulsoup) - A Python library for pulling data out of HTML and XML files.
+ - [pi_analog](https://github.com/simonmonk/pi_analog) - A Python library for using resistive sensors with Raspberry Pi.
+ - [picamera](https://github.com/waveform80/picamera) - A Python interface for the Raspberry Pi camera module.
 
 ### Cryptography
 
