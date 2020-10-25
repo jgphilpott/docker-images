@@ -1,16 +1,16 @@
 # Flask Pack Mini
 
-This image is a lightweight version of the 'Flask Pack', a collection of software packages commonly used in Flask applications.
+This image is a lightweight version of the '[Flask Pack Base](https://github.com/jgphilpott/docker-images/tree/master/flask-pack-base#flask-pack-base)', a collection of software packages commonly used in Flask applications.
 
 ## Usage
 
 To pull this image via the command line:
 
-`docker pull docker.pkg.github.com/jgphilpott/docker-images/flask-pack-mini:v5`
+`sudo docker pull jgphilpott/flask-pack:mini`
 
 To use this image as the base in a Dockerfile:
 
-`FROM docker.pkg.github.com/jgphilpott/docker-images/flask-pack-mini:v5`
+`FROM jgphilpott/flask-pack:mini`
 
 ## Contents
 
