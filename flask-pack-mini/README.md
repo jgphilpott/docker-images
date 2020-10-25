@@ -1,6 +1,6 @@
 # Flask Pack Mini
 
-This image is a lightweight version of the '[Flask Pack Base](https://github.com/jgphilpott/docker-images/tree/master/flask-pack-base#flask-pack-base)', a collection of software packages commonly used in Flask applications.
+This image is a lightweight version of the '[Flask Pack Base](https://github.com/jgphilpott/docker-images/tree/master/flask-pack-base)', a collection of software packages commonly used in Flask applications.
 
 ## Usage
 
