@@ -1,32 +1,11 @@
-FROM python:3.8
+FROM jgphilpott/flask-pack:base
 
 RUN pip install --upgrade pip
 
-RUN pip install Flask
 RUN pip install numpy
 RUN pip install scipy
-RUN pip install fire
-RUN pip install tqdm
-RUN pip install python-dotenv
-
-RUN pip install pytest
-
-RUN pip install pymongo
-
-RUN pip install Flask-SocketIO
-RUN pip install eventlet
-
-RUN pip install Flask-Login
-RUN pip install Flask-Session
-
-RUN pip install libsass
 
 RUN pip install Flask-Mail
-
-RUN pip install httpie
-RUN pip install Scrapy
-RUN pip install requests
-RUN pip install beautifulsoup4
 
 RUN pip install matplotlib
 RUN pip install altair
@@ -34,7 +13,5 @@ RUN pip install altair
 RUN pip install pandas
 RUN pip install scikit-learn
 
-RUN pip install secure
-RUN pip install sha256
-RUN pip install ecdsa
-RUN pip install rsa
+RUN pip install tensorflow
+RUN pip install Keras
