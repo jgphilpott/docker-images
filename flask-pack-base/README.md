@@ -1,6 +1,6 @@
 # Flask Pack Base
 
-The 'Flask Pack Base' is a collection of software packages commonly used in Flask applications.
+The '[Flask Pack Base](https://github.com/jgphilpott/docker-images/tree/master/flask-pack-base)' is a collection of software packages commonly used in Flask applications.
 
 ## Usage
 
