@@ -1,16 +1,16 @@
 # Flask Pack Plus
 
-This image is a heavy duty version of the 'Flask Pack', a collection of software packages commonly used in Flask applications.
+This image is a heavy duty version of the '[Flask Pack Base](https://github.com/jgphilpott/docker-images/tree/master/flask-pack-base/)', a collection of software packages commonly used in Flask applications.
 
 ## Usage
 
 To pull this image via the command line:
 
-`docker pull docker.pkg.github.com/jgphilpott/docker-images/flask-pack-plus:v5`
+`sudo docker pull jgphilpott/flask-pack:plus`
 
 To use this image as the base in a Dockerfile:
 
-`FROM docker.pkg.github.com/jgphilpott/docker-images/flask-pack-plus:v5`
+`FROM jgphilpott/flask-pack:plus`
 
 ## Contents
 
@@ -65,6 +65,11 @@ To use this image as the base in a Dockerfile:
 
  - [pandas](https://github.com/pandas-dev/pandas) - A flexible and powerful data analysis library.
  - [scikit-learn](https://github.com/scikit-learn/scikit-learn) - A machine learning for Python.
+
+### Neural Networking
+
+ - [TensorFlow](https://github.com/tensorflow/tensorflow) - A Python library for deep learning and neural networks.
+ - [Keras](https://github.com/keras-team/keras) - A user friendly interface for TensorFlow.
 
 ### Cryptography
 
