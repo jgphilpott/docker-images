@@ -14,7 +14,6 @@ RUN git clone https://github.com/simonmonk/pi_analog.git
 WORKDIR /pi_analog
 RUN python3 setup.py install
 WORKDIR /
-
 RUN pip install  picamera
 
 RUN pip install sha256
