@@ -1,16 +1,16 @@
-# Flask Pack
+# Flask Pack Base
 
-The 'Flask Pack' is a collection of software packages commonly used in Flask applications.
+The 'Flask Pack Base' is a collection of software packages commonly used in Flask applications.
 
 ## Usage
 
 To pull this image via the command line:
 
-`docker pull docker.pkg.github.com/jgphilpott/docker-images/flask-pack:v5`
+`sudo docker pull jgphilpott/flask-pack:base`
 
 To use this image as the base in a Dockerfile:
 
-`FROM docker.pkg.github.com/jgphilpott/docker-images/flask-pack:v5`
+`FROM jgphilpott/flask-pack:base`
 
 ## Contents
 
