@@ -1,6 +1,6 @@
 # Flask Pack Plus
 
-This image is a heavy duty version of the '[Flask Pack Base](https://github.com/jgphilpott/docker-images/tree/master/flask-pack-base/)', a collection of software packages commonly used in Flask applications.
+This image is a heavy duty version of the '[Flask Pack Base](https://github.com/jgphilpott/docker-images/tree/master/flask-pack-base)', a collection of software packages commonly used in Flask applications.
 
 ## Usage
 
