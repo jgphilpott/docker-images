@@ -6,7 +6,7 @@ This image is a heavy duty version of the '[Pi Pack Base](https://github.com/jgp
 
 To pull this image via the command line:
 
-`docker pull jgphilpott/pi-pack:plus`
+`sudo docker pull jgphilpott/pi-pack:plus`
 
 To use this image as the base in a Dockerfile:
 
