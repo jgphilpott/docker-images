@@ -26,7 +26,7 @@ A collection of software packages commonly used in Raspberry Pi projects.
 
 # Publishing
 
-If you need any help publishing your docker images to [Docker Hub](https://hub.docker.com) read [this](https://docs.docker.com/docker-hub/repos) or see the steps below.
+If you need any help publishing your docker images to [Docker Hub](https://hub.docker.com) read [this](https://docs.docker.com/docker-hub/repos) or see the steps below. For publishing docker images to [GitHub](https://github.com) read [this](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-docker-registry).
 
 ### Step 1 - Login
 
