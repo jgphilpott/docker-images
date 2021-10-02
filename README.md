@@ -1,6 +1,4 @@
-<p align="center">
-  <img width="250" height="250" src="https://github.com/jgphilpott/docker-images/blob/master/icon.jpeg">
-</p>
+<p align="center"><img width="250" height="250" src="https://github.com/jgphilpott/docker-images/blob/master/icon.jpeg"></p>
 
 # Intro
 
@@ -12,17 +10,17 @@ A [Docker Image](https://docs.docker.com/glossary/#image) is a layered collectio
 
 A collection of software packages commonly used in Flask applications.
 
- - [Flask Pack Mini](https://github.com/jgphilpott/docker-images/tree/master/flask-pack-mini) - The lightweight version.
- - [Flask Pack Base](https://github.com/jgphilpott/docker-images/tree/master/flask-pack-base) - The standard version.
- - [Flask Pack Plus](https://github.com/jgphilpott/docker-images/tree/master/flask-pack-plus) - The heavy duty version.
+ - [Flask Pack Mini](https://github.com/jgphilpott/docker-images/tree/master/flask-series/flask-pack-mini) - The lightweight version.
+ - [Flask Pack Base](https://github.com/jgphilpott/docker-images/tree/master/flask-series/flask-pack-base) - The standard version.
+ - [Flask Pack Plus](https://github.com/jgphilpott/docker-images/tree/master/flask-series/flask-pack-plus) - The heavy duty version.
 
 ### [Pi Series](https://hub.docker.com/r/jgphilpott/pi-pack)
 
 A collection of software packages commonly used in Raspberry Pi projects.
 
- - [Pi Pack Mini](https://github.com/jgphilpott/docker-images/tree/master/pi-pack-mini) - The lightweight version.
- - [Pi Pack Base](https://github.com/jgphilpott/docker-images/tree/master/pi-pack-base) - The standard version.
- - [Pi Pack Plus](https://github.com/jgphilpott/docker-images/tree/master/pi-pack-plus) - The heavy duty version.
+ - [Pi Pack Mini](https://github.com/jgphilpott/docker-images/tree/master/pi-series/pi-pack-mini) - The lightweight version.
+ - [Pi Pack Base](https://github.com/jgphilpott/docker-images/tree/master/pi-series/pi-pack-base) - The standard version.
+ - [Pi Pack Plus](https://github.com/jgphilpott/docker-images/tree/master/pi-series/pi-pack-plus) - The heavy duty version.
 
 # Publishing
 
@@ -30,16 +28,16 @@ If you need any help publishing your docker images to [Docker Hub](https://hub.d
 
 ### Step 1 - Login
 
-`sudo docker login`
+`docker login`
 
 ### Step 2 - Build Image
 
-`sudo docker build . -t <IMAGE_NAME>`
+`docker build . -t <IMAGE_NAME>`
 
 ### Step 3 - Tag Image
 
-`sudo docker tag <IMAGE_ID> <USERNAME>/<REPOSITORY>:<TAG>`
+`docker tag <IMAGE_ID> <USERNAME>/<REPOSITORY>:<TAG>`
 
 ### Step 4 - Push Image
 
-`sudo docker push <USERNAME>/<REPOSITORY>:<TAG>`
+`docker push <USERNAME>/<REPOSITORY>:<TAG>`
