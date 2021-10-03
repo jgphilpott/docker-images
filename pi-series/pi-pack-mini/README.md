@@ -1,12 +1,12 @@
 # Pi Pack Mini
 
-This image is a lightweight version of the '[Pi Pack Base](https://github.com/jgphilpott/docker-images/tree/master/pi-pack-base)', a collection of software packages commonly used in Raspberry Pi projects.
+This image is a lightweight version of the '[Pi Pack Base](https://github.com/jgphilpott/docker-images/tree/master/pi-series/pi-pack-base)', a collection of software packages commonly used in Raspberry Pi projects.
 
 ## Usage
 
 To pull this image via the command line:
 
-`sudo docker pull jgphilpott/pi-pack:mini`
+`docker pull jgphilpott/pi-pack:mini`
 
 To use this image as the base in a Dockerfile:
 

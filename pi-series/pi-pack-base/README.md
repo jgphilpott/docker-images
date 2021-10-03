@@ -1,12 +1,12 @@
 # Pi Pack Base
 
-The '[Pi Pack Base](https://github.com/jgphilpott/docker-images/tree/master/pi-pack-base)' is a collection of software packages commonly used in Raspberry Pi projects.
+The '[Pi Pack Base](https://github.com/jgphilpott/docker-images/tree/master/pi-series/pi-pack-base)' is a collection of software packages commonly used in Raspberry Pi projects.
 
 ## Usage
 
 To pull this image via the command line:
 
-`sudo docker pull jgphilpott/pi-pack:base`
+`docker pull jgphilpott/pi-pack:base`
 
 To use this image as the base in a Dockerfile:
 
