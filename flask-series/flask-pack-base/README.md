@@ -65,4 +65,4 @@ To use this image as the base in a Dockerfile:
  - [secure](https://github.com/TypeError/secure.py) - A library for adding security headers to Python web frameworks.
  - [SHA-256](https://pypi.org/project/sha256) - A one-way hash algorithm.
  - [ECDSA](https://github.com/warner/python-ecdsa) - A digital signature algorithm.
- - [RSA](https://github.com/sybrenstuvel/python-rsa) - A asymmetric key algorithm.
+ - [RSA](https://github.com/sybrenstuvel/python-rsa) - An asymmetric key algorithm.
