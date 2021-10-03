@@ -44,7 +44,7 @@ To use this image as the base in a Dockerfile:
 
 ### Image Processing
 
- - [Pillow](https://github.com/python-pillow/Pillow) - A Python Imaging Library.
+ - [Pillow](https://github.com/python-pillow/Pillow) - A Python imaging library.
 
 ### Cryptography
 
