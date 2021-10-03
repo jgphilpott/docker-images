@@ -1,10 +1,7 @@
-FROM ubuntu:latest
+FROM python:3.9
 
 RUN apt-get update
-RUN apt-get upgrade
-
-RUN DEBIAN_FRONTEND=noninteractive apt-get install -y \
-    python3.9 python3-pip
+RUN apt-get upgrade -y
 
 RUN pip install --upgrade pip
 
