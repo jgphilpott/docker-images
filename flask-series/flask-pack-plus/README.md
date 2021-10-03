@@ -90,7 +90,6 @@ To use this image as the base in a Dockerfile:
  - [PyTorch Text](https://github.com/pytorch/text) - Data loaders and abstractions for text and NLP.
  - [PyTorch Vision](https://github.com/pytorch/vision) - Datasets, Transforms and Models specific to computer vision.
 
-
 ### Natural Language Processing
 
  - [NLTK](https://github.com/nltk/nltk) - Natural Language Toolkit (NLTK).
