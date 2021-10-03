@@ -76,25 +76,26 @@ To use this image as the base in a Dockerfile:
  - [scikit-learn](https://github.com/scikit-learn/scikit-learn) - Machine learning in Python.
  - [statsmodels](https://github.com/statsmodels/statsmodels) - Statistical modeling and econometrics in Python.
 
-### Natural Language Processing
-
- - [NLTK](https://github.com/nltk/nltk) - Natural Language Toolkit (NLTK).
- - [gensim](https://github.com/RaRe-Technologies/gensim) - Topic Modelling for Humans.
- - [polyglot](https://github.com/aboSamoor/polyglot) - Multilingual text (NLP) processing toolkit.
-
 ### Neural Networking
 
-## TensorFlow
+#### TensorFlow
 
  - [TensorFlow](https://github.com/tensorflow/tensorflow) - A Python library for deep learning and neural networks.
  - [TensorFlow Hub](https://github.com/tensorflow/hub) - A library for transfer learning by reusing parts of TensorFlow models.
  - [Keras](https://github.com/keras-team/keras) - A user friendly interface for TensorFlow.
 
-## PyTorch
+#### PyTorch
 
  - [PyTorch](https://github.com/pytorch/pytorch) - Tensors and dynamic neural networks in Python.
  - [PyTorch Text](https://github.com/pytorch/text) - Data loaders and abstractions for text and NLP.
  - [PyTorch Vision](https://github.com/pytorch/vision) - Datasets, Transforms and Models specific to computer vision.
+
+
+### Natural Language Processing
+
+ - [NLTK](https://github.com/nltk/nltk) - Natural Language Toolkit (NLTK).
+ - [gensim](https://github.com/RaRe-Technologies/gensim) - Topic Modelling for Humans.
+ - [polyglot](https://github.com/aboSamoor/polyglot) - Multilingual text (NLP) processing toolkit.
 
 ### Image Processing
 
