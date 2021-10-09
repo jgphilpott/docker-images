@@ -11,6 +11,7 @@ RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
 # SETUP
+# CREDIT: https://github.com/dimmg/dockselpy
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y \
     fonts-liberation libasound2 libgbm1 libatk-bridge2.0-0 \
     libnspr4 libnss3 lsb-release xdg-utils libxss1 libdbus-glib-1-2 \
