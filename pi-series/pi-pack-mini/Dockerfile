@@ -1,19 +1,13 @@
-FROM python:3.7
+FROM python:buster
+
+ADD . /
+WORKDIR /
+
+# RUN apt-get update
+# RUN apt-get upgrade -y
 
 RUN pip install --upgrade pip
 
-RUN pip install Flask
-RUN pip install fire
-RUN pip install tqdm
+RUN pip install -r requirements.txt
 
-RUN pip install pytest
-
-RUN pip install pymongo
-
-RUN pip install gpiozero
-RUN pip install RPi.GPIO
-
-RUN pip install guizero
-RUN pip install colorzero
-
-RUN pip install secure
+# RUN apt-get install python-smbus i2c-tools wiringpi

@@ -19,6 +19,9 @@ To use this image as the base in a Dockerfile:
  - [Flask](https://github.com/pallets/flask) - A Python micro framework for building web applications.
  - [Fire](https://github.com/google/python-fire) - A Python tool for generating command line interfaces.
  - [tqdm](https://github.com/tqdm/tqdm) - A Python tool for generating progress bars in the command line.
+ - [hickory](https://github.com/maxhumber/hickory) - A command line tool for scheduling Python scripts.
+ - [Arrow](https://github.com/arrow-py/arrow) - Better dates & times for Python.
+ - [spidev](https://github.com/doceme/py-spidev) - A Python module for interfacing with SPI devices.
 
 ### Testing
 
@@ -27,6 +30,12 @@ To use this image as the base in a Dockerfile:
 ### Database
 
  - [PyMongo](https://github.com/mongodb/mongo-python-driver) - A Python driver for MongoDB.
+ - [SQLAlchemy](https://github.com/sqlalchemy/sqlalchemy) - A Python SQL toolkit.
+
+### Crawling
+
+ - [HTTPie](https://github.com/jakubroztocil/httpie) - A simple command line tool for making HTTP requests.
+ - [gazpacho](https://github.com/maxhumber/gazpacho) - A simple, fast and modern web scraping library.
 
 ### GPIO
 
@@ -38,6 +47,10 @@ To use this image as the base in a Dockerfile:
  - [guizero](https://github.com/lawsie/guizero) - A Python library for quickly and easily creating GUIs.
  - [colorzero](https://github.com/waveform80/colorzero) - A Python library for color manipulation.
 
+### Image Processing
+
+ - [Pillow](https://github.com/python-pillow/Pillow) - A Python imaging library.
+
 ### Cryptography
 
- - [Secure](https://github.com/TypeError/secure.py) - A Python library for securing request headers and cookies.
+ - [secure](https://github.com/TypeError/secure.py) - A library for adding security headers to Python web frameworks.
