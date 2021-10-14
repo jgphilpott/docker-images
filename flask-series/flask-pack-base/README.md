@@ -34,8 +34,8 @@ To use this image as the base in a Dockerfile:
 
 ### Networking
 
-- [Flask-SocketIO](https://github.com/miguelgrinberg/Flask-SocketIO) - SocketIO integration for Flask applications.
-- [Eventlet](https://github.com/eventlet/eventlet) - A concurrent networking library for Python.
+ - [Flask-SocketIO](https://github.com/miguelgrinberg/Flask-SocketIO) - SocketIO integration for Flask applications.
+ - [Eventlet](https://github.com/eventlet/eventlet) - A concurrent networking library for Python.
 
 ### User Management
 

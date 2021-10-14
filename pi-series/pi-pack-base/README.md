@@ -59,11 +59,11 @@ To use this image as the base in a Dockerfile:
 
  - [pi_analog](https://github.com/simonmonk/pi_analog) - A Python library for using resistive sensors with Raspberry Pi.
  - [picamera](https://github.com/waveform80/picamera) - A Python interface for the Raspberry Pi camera module.
- - [MFRC522](https://github.com/pimylifeup/MFRC522-python) - ...
- - [HX711](https://github.com/mpibpc-mroose/hx711) - ...
- - [Adafruit DHT](https://github.com/adafruit/DHT-sensor-library) - ...
- - [fingerprint](https://github.com/bastianraschke/pyfingerprint) - ...
- - [RdSpi](https://github.com/achilikin/RdSpi) - ...
+ - [MFRC522](https://github.com/pimylifeup/MFRC522-python) - A python library to read and write RFID tags.
+ - [HX711](https://github.com/mpibpc-mroose/hx711) - A library to drive a HX711 load cell amplifier with a Raspberry Pi.
+ - [Adafruit DHT](https://github.com/adafruit/DHT-sensor-library) - A library for the DHT series of low-cost temperature/humidity sensors.
+ - [fingerprint](https://github.com/bastianraschke/pyfingerprint) - A library to use ZhianTec fingerprint sensors on the Raspberry Pi or other Linux machines.
+ - [RdSpi](https://github.com/achilikin/RdSpi) - A Si4703 based RDS scanner for Raspberry Pi.
 
 ### Image Processing
 
