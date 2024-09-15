@@ -14,6 +14,14 @@ A collection of software packages commonly used in Flask applications.
  - [Flask Pack Base](https://github.com/jgphilpott/docker-images/tree/master/flask-series/flask-pack-base) - The standard version.
  - [Flask Pack Plus](https://github.com/jgphilpott/docker-images/tree/master/flask-series/flask-pack-plus) - The heavy duty version.
 
+### [Node Series](https://hub.docker.com/r/jgphilpott/node-pack)
+
+A collection of software packages commonly used in Node applications.
+
+ - [Node Pack Mini](https://github.com/jgphilpott/docker-images/tree/master/node-series/node-pack-mini) - The lightweight version.
+ - [Node Pack Base](https://github.com/jgphilpott/docker-images/tree/master/node-series/node-pack-base) - The standard version.
+ - [Node Pack Plus](https://github.com/jgphilpott/docker-images/tree/master/node-series/node-pack-plus) - The heavy duty version.
+
 ### [Pi Series](https://hub.docker.com/r/jgphilpott/pi-pack)
 
 A collection of software packages commonly used in Raspberry Pi projects.
