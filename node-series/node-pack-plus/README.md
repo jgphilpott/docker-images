@@ -1,6 +1,6 @@
 # Node Pack Plus
 
-The '[Node Pack Plus](https://github.com/jgphilpott/docker-images/tree/master/node-series/node-pack-plus)' is a collection of software packages commonly used in Node applications.
+This image is a heavy duty version of the '[Node Pack Base](https://github.com/jgphilpott/docker-images/tree/master/node-series/node-pack-base)', a collection of software packages commonly used in Node applications.
 
 ## Usage
 

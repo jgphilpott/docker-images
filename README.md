@@ -1,4 +1,6 @@
-<p align="center"><img width="250" height="250" src="https://github.com/jgphilpott/docker-images/blob/master/icon.jpeg"></p>
+<p align="center">
+    <img width="250" height="250" src="https://raw.githubusercontent.com/jgphilpott/docker-images/master/icon.jpeg">
+</p>
 
 # Intro
 
